@@ -1,5 +1,9 @@
 # python-vscode for mac/windows
 
+## 0.1.2 - 2022-03-03
+## Fix a bug
+- order of parameters of function pdf().
+
 ## 0.1.1 - 2022-03-03
 ### Added
 - src/histogram.ipynb
