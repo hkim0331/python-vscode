@@ -1,5 +1,6 @@
 # python/vscode for macos
 
+For Windows, shoud go to README-win.md.
 
 ## Install
 
