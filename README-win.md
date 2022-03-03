@@ -1,6 +1,6 @@
 # Python/VScode の環境を作る
 
-Mac ユーザは macos フォルダを見よう。
+Mac ユーザは README-mac.md へ。
 
 ## インストール
 
@@ -22,12 +22,14 @@ https://code.visualstudio.com/
 8. 上から順にセル上でカーソルをクリック、シフトエンターしてみる。
 9. プログラムを書き換えてシフトエンターしてみる。
 
-### numpy, matplotlib がない？
+### numpy, matplotlib が見つからない？
+
 VScode, Terminal, New Terminal でターミナルを開き、
 
     > py -m pip --no-cache-dir -r requirements.txt
 
 ### アンインストール
+
 スタート、設定、アプリ、アプリと機能を選んで、以下を削除する。
 
 * Microsoft Visual Studio Code(User)
@@ -35,7 +37,10 @@ VScode, Terminal, New Terminal でターミナルを開き、
 * Python Launcher
 
 ## 進んだ人に(Remote WSL)
-WSL で動かす。
+
+コンテナで動かすのが流行り。
+ただ、Windows では DockerDesktop が調子よくないってウワサもちらほら。
+この際、WSL で動かしてみよう。
 
 1. windows ターミナルを開く。
 2. `wsl --install -d Ubuntu`
@@ -48,6 +53,7 @@ WSL で動かす。
 7. 再度、import ... を評価する。
 
 ### WSL をアンインストール
+
 スタート、設定、アプリ、アプリと機能を選んで、以下を削除する。
 
 * Ubuntu
