@@ -13,5 +13,5 @@ VScode のエディタとしての機能を存分に利用できる。
 
 Python/VScode のインストール手順を mac と windows 用に分けて作る。
 
-* README-mac.md
-* README-win.md
+* install-macos.md
+* install-windows.md
