@@ -1,10 +1,10 @@
 # python-vscode for mac/windows
 
 ## 0.1.1 - 2022-03-03
-
 ### Added
 - src/histogram.ipynb
 - src/sine-curve.ipynb
+- README.md
 
 ## 0.1.0 - 2022-03-03
 ### Reborn
