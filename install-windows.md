@@ -1,6 +1,6 @@
 # Python/VScode の環境を作る
 
-Mac ユーザは README-mac.md へ。
+Mac ユーザは `install-macos.md` へ。
 
 ## インストール
 
