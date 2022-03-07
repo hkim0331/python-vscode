@@ -2,16 +2,20 @@
 
 ## Unreleased
 - 名前 install-mac, install-win は変か？
-- jupyter installer
-
 
 ## 0.1.4-SNAPSHOT
 ### Changed
 - install-windows.md: JupyterLab のインストールも含める。
+### Added
+- jupyter.bat. いるか？
 
 ## 0.1.3 - 2022-03-05
 ### Added
 - pip install numpy, matplotlib in .devcontainer/Dockerfile.
+
+## 0.1.3 - 2022-03-07
+### Checkme
+- windows/wsl からプッシュしてみた。反映していない。
 
 ## 0.1.2 - 2022-03-03
 ### Fix a bug
