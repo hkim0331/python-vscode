@@ -7,6 +7,10 @@
 ### Added
 - pip install numpy, matplotlib in .devcontainer/Dockerfile.
 
+## 0.1.3 - 2022-03-07
+### Checkme
+- windows/wsl からプッシュしてみた。反映していない。
+
 ## 0.1.2 - 2022-03-03
 ### Fix a bug
 - order of parameters of function pdf().
