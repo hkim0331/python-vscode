@@ -8,7 +8,6 @@ Python extenstion に引きずられて入ってくる Jupyter extension 使っ�
 VScode のエディタとしての機能を存分に利用できる。
 
 インストールの簡単さは同じくらい。
-
 リモートコンテナ（リモートWSL）などの拡張性で断然こちら。
 
 Python/VScode のインストール手順を mac と windows 用に分けて作る。
