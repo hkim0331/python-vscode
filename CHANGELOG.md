@@ -1,9 +1,18 @@
 # python-vscode for mac/windows
 
 ## Unreleased
-- jupyter, いるか？
+- 名前 install-mac, install-win は変か？
+- install-linux.md も必要か？
 
-## 0.1.3-SNAPSHOT
+
+## 0.1.4 - 2022-03-07
+### Changed
+- install-windows.md: JupyterLab のインストールも含める。
+### Added
+- start-jupyter.bat
+- start-jupyter.sh, mac ではスタートしても ubuntu ではスタートしない理由はなんだ？
+
+## 0.1.3 - 2022-03-05
 ### Added
 - pip install numpy, matplotlib in .devcontainer/Dockerfile.
 
