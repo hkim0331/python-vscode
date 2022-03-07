@@ -9,14 +9,12 @@
 - git pre-hook 今度こそ成功。
   これは m1 や m3 など、commit の可能性のあるホストに入れとかないと。
   don't forget `git init` after updating git hooks.
-
 ```sh
   if [ -n "`bin/clear-output.sh src/*.ipynb`" ]; then
     echo "clear-output.sh error"
     exit 1
   fi
 ```
-
 ### Fix bugs
 - bin/*.sh
   ${i##*.} = 'ipynb' でファイル $i の拡張子が ipynb であるかを確かめた。
@@ -28,11 +26,9 @@
 - start-jupyter.bat
 - start-jupyter.sh, mac ではスタートしても ubuntu ではスタートしない理由はなんだ？
 
-## 0.1.3 - 2022-03-05
+## 0.1.3 - 2022-03-07
 ### Added
 - pip install numpy, matplotlib in .devcontainer/Dockerfile.
-
-## 0.1.3 - 2022-03-07
 ### Checkme
 - windows/wsl からプッシュしてみた。反映していない。
 
