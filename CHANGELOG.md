@@ -3,7 +3,12 @@
 ## Unreleased
 - 名前 install-mac, install-win は変か？
 - install-linux.md も必要か？
+- git hook を利用して、commit 前に nbconvert する。
 
+## 0.1.5
+### Fix bugs
+- bin/*.sh
+  ${i##*.} = 'ipynb' でファイル $i の拡張子が ipynb であるかを確かめた。
 
 ## 0.1.4 - 2022-03-07
 ### Changed
