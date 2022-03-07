@@ -1,5 +1,8 @@
 # python-vscode for mac/windows
 
+## Unreleased
+- jupyter, いるか？
+
 ## 0.1.1 - 2022-03-03
 ### Added
 - src/histogram.ipynb
