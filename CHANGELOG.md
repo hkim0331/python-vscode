@@ -1,5 +1,20 @@
 # python-vscode for mac/windows
 
+## Unreleased
+- jupyter, いるか？
+
+## 0.1.3-SNAPSHOT
+### Added
+- pip install numpy, matplotlib in .devcontainer/Dockerfile.
+
+## 0.1.3 - 2022-03-07
+### Checkme
+- windows/wsl からプッシュしてみた。反映していない。
+
+## 0.1.2 - 2022-03-03
+### Fix a bug
+- order of parameters of function pdf().
+
 ## 0.1.1 - 2022-03-03
 ### Added
 - src/histogram.ipynb

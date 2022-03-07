@@ -3,7 +3,7 @@
 情報リテラシー2020用 Python セットアップ。
 
 VScode のインストールもルーチンに入っているんだし、
-ブラウザで Jupyter ってのよりも
+ブラウザで JupyterLab ってのよりも
 Python extenstion に引きずられて入ってくる Jupyter extension 使った方が便利。
 VScode のエディタとしての機能を存分に利用できる。
 
@@ -13,5 +13,5 @@ VScode のエディタとしての機能を存分に利用できる。
 
 Python/VScode のインストール手順を mac と windows 用に分けて作る。
 
-* README-mac.md
-* README-win.md
+* install-macos.md
+* install-windows.md

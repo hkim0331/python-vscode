@@ -1,6 +1,6 @@
 # python/vscode for macos
 
-For Windows, shoud go to README-win.md.
+Windows users should go to `install-windows.md`.
 
 ## Install
 
@@ -17,3 +17,7 @@ For Windows, shoud go to README-win.md.
 1. `make remote` on your terminal
 2. Reopen in Container from left botton corner of VScode window
 3. Choose Python3
+
+## Unreleased
+
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
