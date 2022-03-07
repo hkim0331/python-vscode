@@ -6,12 +6,12 @@
 
 ## 0.1.5 - 2022-03-07
 ### Added
-- git pre-hook 成功と思ったら失敗だった。
+- git pre-hook 今度こそ成功。
 　これは m1 や m3 など、commit の可能性のあるホストに入れとかないと。
   don't forget `git init` after updating git hooks.
 
 ```sh  
-  if [ `bin/clear-output.sh src/*.ipynb` -ne 0 ]; then
+  if [ -n "`bin/clear-output.sh src/*.ipynb`" ]; then
     echo "clear-output.sh error"
     exit 1
   fi
