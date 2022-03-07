@@ -8,6 +8,8 @@
 ### Added
 - git pre-hook 成功。でも、
 　これは m1 や m3 など、commit の可能性のあるホストに入れとかないと。
+  don't forget `git init` after updating git hooks.
+
 ```sh  
   if [ `bin/clear-output.sh src/*.ipynb` -ne 0 ]; then
     echo "clear-output.sh error"
