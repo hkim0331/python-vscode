@@ -6,7 +6,7 @@
 
 ## 0.1.5 - 2022-03-07
 ### Added
-- git pre-hook 成功。でも、
+- git pre-hook 成功と思ったら失敗だった。
 　これは m1 や m3 など、commit の可能性のあるホストに入れとかないと。
   don't forget `git init` after updating git hooks.
 
