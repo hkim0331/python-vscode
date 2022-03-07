@@ -5,7 +5,7 @@
 - install-linux.md も必要か？
 
 
-## 0.1.4-SNAPSHOT
+## 0.1.4 - 2022-03-07
 ### Changed
 - install-windows.md: JupyterLab のインストールも含める。
 ### Added
