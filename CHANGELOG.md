@@ -2,12 +2,15 @@
 
 ## Unreleased
 - 名前 install-mac, install-win は変か？
+- install-linux.md も必要か？
+
 
 ## 0.1.4-SNAPSHOT
 ### Changed
 - install-windows.md: JupyterLab のインストールも含める。
 ### Added
-- jupyter.bat. いるか？
+- start-jupyter.bat
+- start-jupyter.sh, mac ではスタートしても ubuntu ではスタートしない理由はなんだ？
 
 ## 0.1.3 - 2022-03-05
 ### Added
