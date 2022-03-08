@@ -1,13 +1,34 @@
 # python-vscode for mac/windows
 
 ## Unreleased
-- jupyter, いるか？
+- 名前 install-mac, install-win は変か？
+- install-linux.md も必要か？ pip install だけじゃできねーぞ。
 
-## 0.1.3-SNAPSHOT
+## 0.1.5 - 2022-03-07
 ### Added
-- pip install numpy, matplotlib in .devcontainer/Dockerfile.
+- git pre-hook 今度こそ成功。
+  これは m1 や m3 など、commit の可能性のあるホストに入れとかないと。
+  don't forget `git init` after updating git hooks.
+```sh
+  if [ -n "`bin/clear-output.sh src/*.ipynb`" ]; then
+    echo "clear-output.sh error"
+    exit 1
+  fi
+```
+### Fix bugs
+- bin/*.sh
+  ${i##*.} = 'ipynb' でファイル $i の拡張子が ipynb であるかを確かめた。
+
+## 0.1.4 - 2022-03-07
+### Changed
+- install-windows.md: JupyterLab のインストールも含める。
+### Added
+- start-jupyter.bat
+- start-jupyter.sh, mac ではスタートしても ubuntu ではスタートしない理由はなんだ？
 
 ## 0.1.3 - 2022-03-07
+### Added
+- pip install numpy, matplotlib in .devcontainer/Dockerfile.
 ### Checkme
 - windows/wsl からプッシュしてみた。反映していない。
 

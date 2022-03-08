@@ -12,7 +12,6 @@ Mac ユーザは `install-macos.md` へ。
 
 ## インストール１
 
-
 1. python を以下の URL からダウンロード、インストールする。
 https://www.python.org/downloads/
 

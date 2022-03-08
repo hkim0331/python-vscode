@@ -39,4 +39,3 @@ uninstall-vscode:
 # utilities
 src/%.py: src/%.ipynb
 	jupyter nbconvert --to python $<
-
