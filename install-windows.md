@@ -58,10 +58,14 @@ https://code.visualstudio.com/
 この際、WSL で動かしてみよう。
 
 1. windows ターミナルを開いて、
+
     > wsl --install -d Ubuntu
+
    インストール終わったらターミナルは閉じていい。
 2. このフォルダを右クリック、新たにターミナル開けて、
+
    > code .
+
 3. VScode が立ち上がるので、EXTENTIONS から `Remote WSL` をインストールする。
 4. VScode の左下隅、小さい緑ボタンをクリック `Reopen Folder in WSL` を選択。
 5. `sample-plot.ipynb` を開く。
@@ -75,7 +79,7 @@ https://code.visualstudio.com/
 * Python 3.10.2
 * Python Launcher
 
-WSL をアンインストールするには、以下を削除する。
+WSL をアンインストールするには以下を削除する。
 
 * Ubuntu
 * Windows Subsystem for Linux Update
