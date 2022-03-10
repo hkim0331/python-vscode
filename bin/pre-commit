@@ -2,6 +2,7 @@
 # ./git/hooks/pre-commit
 # It is safe to clear outputs just before every commit,
 # but too late `pre commit`? should be `pre-add`.
+# how about `make clear-output`?
 
 if [ -n "`bin/clear-output.sh src/*.ipynb`" ]; then
     echo "clear-output.sh error"

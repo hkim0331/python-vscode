@@ -40,5 +40,5 @@ uninstall-vscode:
 src/%.py: src/%.ipynb
 	jupyter nbconvert --to python $<
 
-clear:
+clear-output:
 	sh bin/clear-output.sh src/*.ipynb
