@@ -36,6 +36,9 @@ uninstall-vscode:
 	brew uninstall visual-studio-code
 	mv ${HOME}/.vscode ${HOME}/.vscode-`date +%F`
 
+clean:
+	${RM} src/a.out src/out.png
+
 # utilities
 src/%.py: src/%.ipynb
 	jupyter nbconvert --to python $<
