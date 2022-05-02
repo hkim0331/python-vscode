@@ -5,6 +5,10 @@
 - wget で済ます
 
 
+## 0.1.6-SNAPSHOT
+- pre-commit だと clean output する前のバージョンを add した後に
+　クリーンアップすることになって版管理に正しく反映するか？
+
 ## 0.1.5 - 2022-03-07
 ### Added
 - git pre-hook 今度こそ成功。

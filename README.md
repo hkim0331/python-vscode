@@ -14,3 +14,4 @@ Python/VScode のインストール手順を mac と windows 用に分けて作�
 
 * install-macos.md
 * install-windows.md
+* install-linux.md --- chromebook で。
