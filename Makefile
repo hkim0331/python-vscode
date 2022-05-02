@@ -10,16 +10,16 @@ remote: brew vscode docker
 brew:
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-python:
+python: brew
 	brew install python3
 
 requirements:
 	/usr/local/bin/pip install --no-cache-dir -r requirements.txt
 
-docker:
+docker: brew
 	brew install --cask docker
 
-vscode:
+vscode: brew
 	brew install --cask visual-studio-code
 
 # if uninstall python3, use `--force` on your own risk.

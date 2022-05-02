@@ -45,9 +45,13 @@ https://code.visualstudio.com/
    一番上の方に見つかる `Python(Pylance)` の install ボタンをクリック。
 
 4. VScode の Explorer にある `sample-plot.ipynb` をクリック、
+
 5. ウィンドウ右上の方、`Python 3.10.2 64bit` を選択。
+
 6. 上から順にセル上でカーソルをクリック、シフトエンターしてみる。
+
 7. プログラムを書き換えてシフトエンターしてみる。
+
 8. VScode の機能を存分に利用してプログラミングしてみよう。
    関数名の上にカーソルを乗せると、関数の説明が現れる。英語だけどね。
 
@@ -60,12 +64,17 @@ https://code.visualstudio.com/
 1. windows ターミナルを開いて、
     > wsl --install -d Ubuntu
    インストール終わったらターミナルは閉じていい。
+
 2. このフォルダを右クリック、新たにターミナル開けて、
    > code .
+
 3. VScode が立ち上がるので、EXTENTIONS から `Remote WSL` をインストールする。
+
 4. VScode の左下隅、小さい緑ボタンをクリック `Reopen Folder in WSL` を選択。
+
 5. `sample-plot.ipynb` を開く。
-7. セルをクリック、シフトエンターで評価する。
+
+6. セルをクリック、シフトエンターで評価する。
 
 ### アンインストール
 

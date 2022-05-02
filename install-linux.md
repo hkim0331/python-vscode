@@ -1,6 +1,9 @@
-# python/vscode for macos
+# python/vscode for Chromebook/Linux
 
-Windows users should go to `install-windows.md`.
+UNDER CONSTRUCTION
+
+Windows users should go `install-windows.md`.
+MacOS users should go `install-macos.md`.
 
 ## Install
 

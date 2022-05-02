@@ -1,8 +1,9 @@
 # python-vscode for mac/windows
 
 ## Unreleased
-- 名前 install-mac, install-win は変か？
 - install-linux.md も必要か？ pip install だけじゃできねーぞ。
+- wget で済ます
+
 
 ## 0.1.5 - 2022-03-07
 ### Added
